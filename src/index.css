@@ -5,9 +5,10 @@
 body {
   margin: auto;
   max-width: 1280px;
-  font-family: 'Helvetica Neue', 'Inter',
+  font-family: 'Helvetica Neue';
+  /* 'Inter',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
