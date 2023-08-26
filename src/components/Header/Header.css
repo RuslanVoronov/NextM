@@ -1,0 +1,45 @@
+.header {
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+    color: #0A2756;
+    justify-content: space-between;
+}
+
+.header__log {
+    width: 190px;
+    height: 35px;
+}
+
+.header__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__list-item {
+   
+}
+
+.header__sign-up {
+    width: 161px;
+    height: 36px;
+    border: 1px solid #007DFE;
+    color: #007DFE;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: white;
+}
+
+.header__links {}
+
+.header__link {
+    margin-right: 13px;
+}
