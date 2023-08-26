@@ -1,16 +1,17 @@
 import './SendMessageForm.css'
-import { Link } from 'react-router-dom';
 
 function SendMessageForm() {
 
     return (
-        <form className="form">
-            <h2></h2>
-            <inut></inut>
-            <inut></inut>
-            <inut></inut>
-            <button></button>
-        </form >
+        <>
+            <h2 className='form__title'>Отправить сообщение</h2>
+            <form className="form">
+                <input className='form__input form__input_type_name' placeholder='Ваше имя' required></input>
+                <input className='form__input form__input_type_email' placeholder='Email' type='email'></input>
+                <textarea className='form__input form__input_type_message' placeholder='Ваше сообщение' required></textarea>
+                <button className='form__button'>отправить</button>
+            </form >
+        </>
     );
 }
 export default SendMessageForm;
