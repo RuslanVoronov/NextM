@@ -1,9 +1,10 @@
 import email from '../../images/Email.svg';
 import facebook from '../../images/Facebook.svg'
+import MenuPopup from '../MenuPopup/MenuPopup';
 import './Navigation.css'
 import { Link } from 'react-router-dom';
 
-function Navigation() {
+function Navigation({ onMenuClick }) {
 
     return (
         <>
@@ -27,7 +28,8 @@ function Navigation() {
                     </div>
                 </div>
             </nav>
-            <button type='button' className='navigate__menu'></button>
+            <button type='button' onClick={onMenuClick} className='navigate__menu'></button>
+            <MenuPopup />
         </>
     );
 }
