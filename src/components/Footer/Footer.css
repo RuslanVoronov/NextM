@@ -1,9 +1,9 @@
 .footer {
-    padding: 140px 220px 160px;
+    padding: 140px 0 160px;
     display: flex;
     flex-direction: column;
     background-color: #0A2756;
-    text-align: center;
+    align-items: center;
 }
 
 .footer__link {
@@ -34,4 +34,28 @@
     font-weight: 300;
     line-height: 140%;
     text-decoration-line: underline;
+}
+
+@media (max-width: 900px) {
+    .footer {
+        padding: 100px 0 90px;
+    }
+}
+
+@media (max-width: 650px) {
+    .footer {
+        padding: 75px 20px 120px;
+    }
+
+    .footer__link_type_email {
+        font-size: 28px;  
+    }
+
+    .footer__link_type_phone {
+        font-size: 22px;
+    }
+
+    .footer__link_type_info {
+        font-size: 18px;
+    }
 }
