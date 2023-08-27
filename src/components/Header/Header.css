@@ -44,3 +44,9 @@
 .header__link {
     margin-right: 13px;
 }
+
+/* @media (max-width: 650px) {
+    .header {
+        padding: 75px 20px 120px;
+    }
+} */
