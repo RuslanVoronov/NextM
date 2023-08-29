@@ -56,13 +56,19 @@
     text-transform: uppercase;
 }
 
+.promo__vector {
+    position: absolute;
+    height: 30px;
+    bottom: 85px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 @media (max-width: 1160px) {
     .promo {
         padding: 70px 74px 160px;
     }
-}
-
-@media (max-width: 1160px) {
     .promo__title {
         width: 395px;
         height: 220px;
@@ -80,6 +86,10 @@
         right: 37px;
         width: 244px;
         height: 211px;
+    }
+
+    .promo__vector {
+        bottom: 40px;
     }
 }
 
@@ -112,7 +122,7 @@
 }
 
 @media (max-width: 340px) {
-    .promo__subtitle {       
+    .promo__subtitle {
         max-width: 260px;
     }
 
